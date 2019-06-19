@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link rel="stylesheet" type="Text/CSS" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <title>Newsfeed</title>
+    </head>
+    <body>
+      <!-- Header -->
+        <div class="one">
+            <header>
+                <h1>Homework Helper Club</h1><!DOCTYPE html>
+<html>
+
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link rel="stylesheet" type="Text/CSS" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <canvas id="space"></canvas>
+        <title>Newsfeed</title>
+    </head>
+    <body>
+
+      <!-- Header -->
+        <div class="one">
+            <header>
+                <h1>Project EOS</h1>
+            </header>
+        </div>
+
+      <!-- The posting section -->
+        <div class="two">
+              <!-- Where you type -->
+              <textarea rows="5" cols="50" class="posting" id="posting" placeholder="What do you need help with?"></textarea>
+              <!-- Click this to submit what you type!! -->
+              <button class="submit" onclick=validate()> <b>Submit</b> </button>
+        </div>
+
+       <!-- Sidebar with the Profile -->
+        <div class="three">
+            <aside>
+              <!-- The search bar -->
+              <div class="search">
+                <!-- Type your search here! -->
+                <input type="text" class="search" placeholder="Search"></input>
+
+                <button type="button" class="search" onclick="submitSearch()"></button>
+              </div>
+                <!-- Profile photo -->
+                <img src="" class="profileph" id="profileph" alt="Upload Photo" onclick="uploadPhoto()"><br>
+                <!-- Logout! -->
+                <button type="button" class="reg" onclick=logout()><b>Logout</b></button>
+            </aside>
+        </div>
+
+
+        <div class="comment">
+          <!-- <p>Comment</p> -->
+          <div class="user"> <textarea rows="5" cols="45" class="commentpost" id="commentpost" placeholder="Help pls"></textarea><img src="https://thumbs.dreamstime.com/b/cute-lion-cartoon-giving-thumb-up-illustration-39159448.jpg" alt="photo">
+            <h2>Le0</h2>
+            <!--name-->
+          </div>
+          <!--<div></div>-->
+          <!--like button-->
+           <table class="comment buttons">
+             <tr>
+              <td><button class="like"><img src = "https://thumbs.dreamstime.com/b/hand-yellow-glove-fun-thumbs-up-gesture-cartoon-thumb-black-outlines-46418294.jpg" alt="Photo"></td>
+              <td><button type="submit" value="Submit" class="comment submit" onclick=validate()>Submit</button></td>
+              <td><button type="upload" value="upload" class="Upload Photo">Upload Photo</button></td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="comments" id="comments">
+
+        </div>
+
+
+
+        <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyAYtiKkf_PRATv5wCOhShnHX421fPcggcs",
+            authDomain: "test-4824d.firebaseapp.com",
+            databaseURL: "https://test-4824d.firebaseio.com",
+            projectId: "test-4824d",
+            storageBucket: "test-4824d.appspot.com",
+            messagingSenderId: "468223017659"
+          };
+          firebase.initializeApp(config);
+        </script>
+        <script src="js/newsfeed.js"></script>
+    </body>
+
+</html>

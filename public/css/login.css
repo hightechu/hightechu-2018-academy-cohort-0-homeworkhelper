@@ -1,0 +1,63 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+canvas {
+  border: 1px soild black;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:-1;
+}
+
+h1 {
+  text-align: center;
+}
+
+.textE{
+
+}
+
+.textPass{
+
+}
+
+.submitLogin {
+  background-color: #fcb260;
+  border-radius: 50px;
+  border: 0;
+  color: white;
+  height: 30px;
+  width: 60px;
+  margin: 35px 10px 35px 0;
+}
+
+.submitForgotP {
+  background-color: #fcb260;
+  border-radius: 75px;
+  border: 0;
+  color: white;
+  height: 40px;
+  width: 75px;
+  margin: 35px 10px 35px 0;
+}
+
+.title{
+  border-radius: 100px;
+  height: 75px;
+  width: auto;
+  margin: 40px 20px 45px 0;
+  font-family: fantasy;
+  color: #9eedb5
+
+}
+
+.subtitle{
+color: #c2ccfc
+}

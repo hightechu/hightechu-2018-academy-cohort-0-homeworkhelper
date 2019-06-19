@@ -1,0 +1,74 @@
+<!doctype html>
+  <html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="css/login.css">
+
+
+      <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body>
+      <!-- Boot Strap Set up-->
+	    <canvas id="canvas"></canvas>
+<h1>Click Anywhere</h1>
+        <div class="container-fluid">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <div class="row">
+            <div class="col-lg-5">
+
+            </div>
+            <div class="col-lg-2 box">
+              <center>
+                 <br>
+                <h1>
+                  Log in
+                </h1>
+                <br>
+                <!-- Form -->
+  <img src="https://media.giphy.com/media/l378n0vg0LNXvSLHW/giphy.gif" alt="Mountain View" width="auto" height="200">
+                    <form id="loginForm" class="zero">
+                  <form id="loginForm" class="zero">
+                    <input type="text" placeholder="Email" class="text">
+                    <br>
+                    <br>
+                    <input type="password" placeholder="Password" id="pass" class="text">
+                    <br>
+                    <br>
+                    <input type="button" value="Login" class="submit" onclick="login()">
+                    <br>
+                  </form>
+                  <button class="submit" onClick="recover()">Forgot Password</button>
+                <!-- End Form -->
+                <br>
+                <br>
+              </center>
+            </div>
+            <div class="col-lg-5">
+
+            </div>
+          </div>
+					<div class="row">
+        </div>
+        </div>
+        <!--Firebase-->
+    <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyAYtiKkf_PRATv5wCOhShnHX421fPcggcs",
+        authDomain: "test-4824d.firebaseapp.com",
+        databaseURL: "https://test-4824d.firebaseio.com",
+        projectId: "test-4824d",
+        storageBucket: "test-4824d.appspot.com",
+        messagingSenderId: "468223017659"
+      };
+      firebase.initializeApp(config);
+    </script>
+      <script src="js/login.js"></script>
+    </body>
+  </html>
