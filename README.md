@@ -8,11 +8,11 @@ https://test-4824d.firebaseapp.com
 
 ## Promo
 
-![Promo of Website](promo.png)
+![Promo of Website](img/promo.png)
 
-![Promo of Website](promo-1.png)
+![Promo of Website](img/promo-1.png)
 
-![Promo of Website](promo-2.png)
+![Promo of Website](img/promo-2.png)
 
 ## Made with:
 
